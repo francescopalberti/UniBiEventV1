@@ -10,7 +10,6 @@ public class PartitaDiCalcio extends Categoria {
 
 	public PartitaDiCalcio(Campo[] _campiGenerici, Campo[] _campiSpecifici) {
 		super(nome, descrizione, _campiGenerici);
-		campiSpecifici = new Campo[2];
 		campiSpecifici = _campiSpecifici;
 	}
 

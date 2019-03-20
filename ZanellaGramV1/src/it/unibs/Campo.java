@@ -14,22 +14,6 @@ public class Campo<T>  {
 		valore=null;
 	}
 
-	public String getNome() {
-		return nome;
-	}
-
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-
-	public String getDescrizione() {
-		return descrizione;
-	}
-
-	public void setDescrizione(String descrizione) {
-		this.descrizione = descrizione;
-	}
-
 	public boolean isObbligatorio() {
 		return obbligatorietà;
 	}
